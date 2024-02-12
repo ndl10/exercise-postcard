@@ -1,0 +1,63 @@
+body {
+	background: black;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.postcard-header h1 {
+	font-family: "Honk";
+	width: 440px;
+	margin: 10px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin: 0%;
+	font-size: small;
+}
+.body-left,
+body-right {
+	padding: 20px;
+	border-radius: 10px;
+}
+.body-right {
+	margin-right: 20px;
+	margin-top: 5px;
+}
+input {
+	padding: 5px;
+	border-radius: 10px grey;
+}
+input:hover {
+	background-color: rgb(254, 248, 163);
+}
+input:invalid {
+	background-color: red;
+}
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: rgb(243, 70, 32);
+	padding: 10px 5px;
+	color: rgba(237, 247, 127, 0.774);
+}
+button:hover {
+	color: rgb(36, 159, 248);
+	border-radius: 4px;
+}
